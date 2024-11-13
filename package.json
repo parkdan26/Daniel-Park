@@ -1,6 +1,6 @@
 {
   "name": "daniel-park",
-  "homepage": "https://github.com/parkdan26/Daniel-Park",
+  "homepage": "$ npm run deploy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
