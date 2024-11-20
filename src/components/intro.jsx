@@ -27,8 +27,8 @@ export default function Intro() {
             <div>
               <span className="ml-[3%] ">[<a href="mailto: parkdan26@gmail.com" className="hover:text-blue-400">"parkdan26@gmail.com"</a>, 
                 <a href="https://www.linkedin.com/in/parkdan26" target="_blank" className="hover:text-blue-400">"Linkedin"</a>, 
-                <a href="https://github.com/parkdan26" className="hover:text-blue-400">"Github"</a>, 
-                <a href="https://www.instagram.com/danyul_park/?hl=en" className="hover:text-blue-400">"Instagram"]</a> </span>
+                <a href="https://github.com/parkdan26" target="_blank" className="hover:text-blue-400">"Github"</a>, 
+                <a href="https://www.instagram.com/danyul_park/?hl=en" target="_blank" className="hover:text-blue-400">"Instagram"]</a> </span>
             </div>
             <br></br>
             <span className="ml-[3%] ">% Daniel.Resume</span>
