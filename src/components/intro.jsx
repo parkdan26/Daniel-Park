@@ -18,18 +18,28 @@ export default function Intro() {
             <span className="ml-[3%] mt-2 block font-mono max-sm:text-xs">Login Date: {currentDate} </span>
             <span className="ml-[3%] block ">Daniel_Park@{getUA()} ~ % Daniel.Bio</span>
             <div>
-              <span className="ml-[3%]">Hi, I'm Daniel Park, a second-year Computer Science student at Wilfrid Laurier University
-                <br/>
-                <p className="ml-[3%]">in Waterloo Ontario.</p></span>
+              <span className="ml-[3%]">Hi, I'm Daniel Park, a second-year Computer Science student at Wilfrid Laurier 
+                <p className="ml-[3%]">University in Waterloo Ontario</p></span>
             </div>
             <br></br>
             <span className="ml-[3%] ">% Daniel.Contacts</span>
-            <div>
-              <span className="ml-[3%] ">[<a href="mailto: parkdan26@gmail.com" className="hover:text-blue-400">"parkdan26@gmail.com"</a>, 
-                <a href="https://www.linkedin.com/in/parkdan26" target="_blank" className="hover:text-blue-400">"Linkedin"</a>, 
-                <a href="https://github.com/parkdan26" target="_blank" className="hover:text-blue-400">"Github"</a>, 
-                <a href="https://www.instagram.com/danyul_park/?hl=en" target="_blank" className="hover:text-blue-400">"Instagram"]</a> </span>
-            </div>
+            <div className="flex flex-wrap max-md:flex-col ml-[3%]">
+              [
+                <a href="mailto:parkdan26@gmail.com" className="hover:text-blue-400 mr-4">
+                  parkdan26@gmail.com,
+                </a>
+                <a href="https://www.linkedin.com/in/parkdan26" target="_blank" className="hover:text-blue-400 mr-4">
+                  LinkedIn,
+                </a>
+                <a href="https://github.com/parkdan26" target="_blank" className="hover:text-blue-400 mr-4">
+                  GitHub,
+                </a>
+                <a href="https://www.instagram.com/danyul_park/?hl=en" target="_blank" className="hover:text-blue-400">
+                  Instagram
+                </a>
+              ]
+          </div>
+
             <br></br>
             <span className="ml-[3%] ">% Daniel.Resume</span>
             <div>
