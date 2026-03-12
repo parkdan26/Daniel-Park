@@ -1,5 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
-import resume from './images/Daniel_Park_s_Resume (1).pdf'
+import resume from './images/Daniel_Park_s_Resume.pdf'
 
 let currentDate = new Date().toJSON().slice(0, 10);
 export default function Intro() {
@@ -16,13 +16,13 @@ export default function Intro() {
           </div>
           <div className="flex-col w-[60%] rounded-b font-mono shadow-md shadow-r-[3px] border-2 max-sm:text-xs">
             <span className="ml-[3%] mt-2 block font-mono max-sm:text-xs">Login Date: {currentDate} </span>
-            <span className="ml-[3%] block ">Daniel_Park@{getUA()} ~ % Daniel.Bio</span>
+            <span className="ml-[3%] block ">Daniel_Park@{getUA()} ~ % ls Bio</span>
             <div>
-              <span className="ml-[3%]">Hi, I'm Daniel Park, a second-year Computer Science student at Wilfrid Laurier 
-                <p className="ml-[3%]">University in Waterloo Ontario</p></span>
+              <span className="ml-[3%]">Hi, I'm Daniel Park, a third-year Computer Science & Mathematics student at Wilfrid Laurier 
+                <p className="ml-[3%]">University in Waterloo Ontario, I like to go on run's and discover new cafes.</p></span>
             </div>
             <br></br>
-            <span className="ml-[3%] ">% Daniel.Contacts</span>
+            <span className="ml-[3%] ">% ls Contacts</span>
             <div className="flex flex-wrap max-md:flex-col ml-[3%]">
               [
                 <a href="mailto:parkdan26@gmail.com" className="hover:text-blue-400 mr-4">
@@ -41,30 +41,30 @@ export default function Intro() {
           </div>
 
             <br></br>
-            <span className="ml-[3%] ">% Daniel.Resume</span>
+            <span className="ml-[3%] ">% open resume.pdf</span>
             <div>
                 <a href = {resume} className="ml-[3%] hover:text-blue-400">  "Daniel_Resume.pdf"</a>
             </div>
             <br></br>
-            <span className="ml-[3%] ">% Daniel.Education</span>
+            <span className="ml-[3%] ">% ls education</span>
             <div>
               <span className="ml-[3%] ">B.S.c Computer Science & Mathematics -
-                Wilfrid Laurier University; Expected Grad 2027</span>
+                Wilfrid Laurier University; Expected Grad 2028</span>
             </div>
             <br></br>
-            <span className="ml-[3%] ">% Daniel.Location</span>
+            <span className="ml-[3%] ">% ls location</span>
             <div>
               <span className="ml-[3%] ">Toronto Ontario</span>
             </div>
             <br></br>
-            <span className="ml-[3%] ">% Daniel.Languages</span>
+            <span className="ml-[3%] ">% ls languages</span>
             <div>
-              <span className="ml-[3%] ">["Python", "JavaScript", "Java", "HTML/CSS"]</span>
+              <span className="ml-[3%] ">["Python", "Java", "C#", "JavaScript"]</span>
             </div>
             <br></br>
-            <span className="ml-[3%] ">% Daniel.Frameworks</span>
+            <span className="ml-[3%] ">% ls frameworks</span>
             <div>
-              <span className="ml-[3%]">["React.js", "Tailwind.css", "Express.js", "Flask", "Vite", "node.js"]</span>
+              <span className="ml-[3%]">[""Express.js", "Flask", "Django", "React.js", "Tailwind.css", "node.js"]</span>
             </div>
             <br></br>
             </div>

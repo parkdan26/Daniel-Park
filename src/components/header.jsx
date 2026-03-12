@@ -16,18 +16,6 @@ export default function Header() {
       />
       </div>
       <div className="flex font-mono text-blue-400 justify-center gap-x-5 mt-[2%] max-sm:flex-col max-sm:gap-x-0 max-sm:items-center">
-        <Scrollchor to="Bio" className="text-3xl group relative w-max max-sm:m-2" >
-        <span className="relative z-10 group-hover:text-white">Biography</span>
-        <span className="absolute left-0 bottom-0 w-full h-0.5 transition-all  group-hover:h-full group-hover:bg-blue-400 "></span>
-        </Scrollchor>
-        <Scrollchor to="Projects" className="text-3xl group relative w-max max-sm:m-2">
-        <span className="relative z-10 group-hover:text-white">Projects</span>
-        <span className="absolute left-0 bottom-0 w-full h-0.5 transition-all  group-hover:h-full group-hover:bg-blue-400"></span>
-        </Scrollchor>
-        <Scrollchor to="Contact" className="text-3xl group relative w-max max-sm:m-2">
-        <span className="relative z-10 group-hover:text-white">Contact</span>
-        <span className="absolute left-0 bottom-0 w-full h-0.5 transition-all  group-hover:h-full group-hover:bg-blue-400 "></span>
-        </Scrollchor>
       </div>
     </div>
   );

@@ -11,12 +11,6 @@ export default function App() {
         <Header/>
         <Intro/>` 
       </section>
-      <section id = "Bio" className = "min-h-[50vh]">
-        <Bio/>
-      </section>
-      <section id = "Projects" className = "min-h-[90vh] max-lg:[90vh]">
-        <Project/>
-      </section>
       <section id = "Contact"className = "min-h-[15vh]">
         <Footer/>
       </section>
