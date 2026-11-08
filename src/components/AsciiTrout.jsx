@@ -199,7 +199,7 @@ export default function AsciiTrout({ paused, reducedMotion }) {
           });
         }
       }
-      ctx.font = `${(fishWidth / columns) * 1.58}px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`;
+      ctx.font = `${(fishWidth / columns) * 1.58}px ${getComputedStyle(canvas).fontFamily}`;
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
       dirty = true;
